@@ -14,7 +14,7 @@ from google.colab import files
 
 #Uploader
 uploaded = files.upload()
-data = pd.read_csv(io.BytesIO(uploaded['6.csv']))
+data = pd.read_csv(io.BytesIO(uploaded['1.csv']))
 
 df = pd.DataFrame(data, columns=['Burner','Inlet Bed','PRESSURE'])
 
